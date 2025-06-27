@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doctor's Advice | Your Pharma Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #eafaf1;
+      color: #333;
+    }
+
+    header {
+      background-color: #00724e;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-left: 5px solid #00724e;
+      margin-bottom: 25px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+      color: #00724e;
+      margin-top: 0;
+    }
+
+    .card h3 {
+      color: #0275d8;
+    }
+
+    .doctor-profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .doctor-profile img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #ccc;
+    }
+
+    .faq, .condition, .products {
+      margin-left: 15px;
+      padding-left: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .consult-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #00724e;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .consult-link:hover {
+      background-color: #005e3f;
+    }
+
+    .disclaimer {
+      background: #fff0f0;
+      color: #a80000;
+      border-left: 5px solid red;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      background-color: #00724e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #d2f1e4;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .doctor-profile {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Doctor's Advice</h1>
+    <p>Welcome to our Doctor's Advice page, where licensed healthcare professionals share trusted insights to help you lead a healthier life. This advice is informational and not a substitute for medical consultation.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Meet Our Expert</h2>
+      <div class="doctor-profile">
+        <img src="doctor-placeholder.jpg" alt="Dr. Anjali Mehta">
+        <div>
+          <h3>Dr. Anjali Mehta</h3>
+          <p><strong>Qualification:</strong> MBBS, MD (Internal Medicine)</p>
+          <p><strong>Experience:</strong> 15+ years in General Medicine</p>
+          <p><strong>Quote:</strong> “Preventive care is the best cure. Take control of your health early.”</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Popular Health Tips</h2>
+      <ul class="faq">
+        <li><strong>Healthy Lifestyle:</strong> Eat a balanced diet, exercise regularly, and sleep 7–8 hours daily.</li>
+        <li><strong>Medication Tips:</strong> Always read the label, take medicines on time, and never self-medicate.</li>
+        <li><strong>Seasonal Health:</strong> Stay hydrated in summer; use mosquito repellents during monsoon.</li>
+        <li><strong>Mental Health:</strong> Practice mindfulness and seek help if feeling anxious or depressed.</li>
+        <li><strong>Women’s Health:</strong> Get regular checkups, maintain calcium levels, and prioritize menstrual hygiene.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Condition-Based Advice</h2>
+      <div class="condition">
+        <h3>🩸 Diabetes Management</h3>
+        <ul>
+          <li>Monitor blood sugar regularly.</li>
+          <li>Follow a low-GI diet and avoid processed sugars.</li>
+          <li>Take insulin/medications on time.</li>
+          <li>Watch for symptoms of low/high sugar.</li>
+        </ul>
+
+        <h3>💓 Heart Health</h3>
+        <ul>
+          <li>Limit salt and fatty foods.</li>
+          <li>Get blood pressure checked monthly.</li>
+          <li>Stay active and avoid smoking.</li>
+        </ul>
+
+        <h3>🧠 Mental Wellness</h3>
+        <ul>
+          <li>Practice stress-reducing activities like yoga or meditation.</li>
+          <li>Speak to a counselor if needed — it’s okay to ask for help.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Ask the Doctor</h2>
+      <p>Have a general health question? Submit it anonymously, and our doctor may answer it in our weekly advice column.</p>
+      <p><em>Note: Specific diagnosis and emergency advice will not be provided online.</em></p>
+      <a class="consult-link" href="#">Submit Your Question</a>
+    </div>
+
+    <div class="card">
+      <h2>Recommended Products</h2>
+      <ul class="products">
+        <li><strong>Blood Glucose Monitor</strong> – Helps track sugar levels at home. <em>Ask your doctor before use.</em></li>
+        <li><strong>Omega-3 Supplements</strong> – May support heart and brain health.</li>
+        <li><strong>Herbal Cough Syrup</strong> – For dry and wet cough, without drowsiness.</li>
+      </ul>
+    </div>
+
+    <div class="disclaimer">
+      <h3>Disclaimer</h3>
+      <p>This information is not intended to replace professional medical advice, diagnosis, or treatment. Always consult your physician or a qualified provider with any health concerns. In case of emergency, visit the nearest hospital or contact emergency services.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 YourPharmaWebsite.com | 
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms & Conditions</a>
+    </p>
+  </footer>
+
+</body>
+</html>
