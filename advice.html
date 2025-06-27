@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctor's Advice | Your Pharma Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #2e7d32;
+      --secondary: #66bb6a;
+      --bg-gradient: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      --card-bg: #ffffff;
+      --shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      --text-dark: #333;
+      --text-muted: #555;
+      --accent: #00897b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-dark);
+      line-height: 1.8;
+    }
+
+    header, section, footer {
+      background-color: var(--card-bg);
+      margin: 30px auto;
+      max-width: 1000px;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    header {
+      text-align: center;
+    }
+
+    h1 {
+      color: var(--primary);
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 16px;
+    }
+
+    h3 {
+      color: var(--accent);
+      margin-top: 24px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--text-muted);
+    }
+
+    .doctor-profile {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid var(--secondary);
+      object-fit: cover;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: var(--text-muted);
+    }
+
+    .disclaimer {
+      background-color: #fff4f4;
+      border-left: 6px solid #d32f2f;
+      color: #b71c1c;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.95em;
+      color: #444;
+    }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      header, section, footer {
+        padding: 25px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .doctor-profile {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Doctor's Advice</h1>
+    <p>Trusted healthcare guidance from experienced professionals. Discover actionable advice for your health, lifestyle, and medication use. Please consult your doctor for personal medical decisions.</p>
+  </header>
+
+  <section>
+    <h2>Meet Our Expert</h2>
+    <div class="doctor-profile">
+      <img src="doctor-placeholder.jpg" alt="Dr. Anjali Mehta">
+      <div>
+        <h3>Dr. Anjali Mehta</h3>
+        <p><strong>Qualification:</strong> MBBS, MD (Internal Medicine)</p>
+        <p><strong>Experience:</strong> 15+ years treating lifestyle-related disorders</p>
+        <p><strong>Philosophy:</strong> “Preventive care and early awareness are the cornerstones of a healthy life.”</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Health & Lifestyle Tips</h2>
+
+    <h3>🌱 Healthy Lifestyle</h3>
+    <p>Start with small habits—balanced diet, regular exercise, hydration, and quality sleep. Avoid sugar, junk food, and excessive screen time. Prioritize mental peace and take breaks throughout the day.</p>
+
+    <h3>💊 Medication Tips</h3>
+    <p>Follow prescriptions carefully. Never self-medicate or skip doses. Store meds in a cool, dry place. Use reminders or pill organizers for chronic treatments.</p>
+
+    <h3>☀️ Seasonal Health</h3>
+    <p>Stay hydrated during summer. Avoid street food during monsoon. In winter, boost immunity with Vitamin C, stay warm, and avoid sudden temperature changes.</p>
+
+    <h3>🧠 Mental Wellness</h3>
+    <p>Practice mindfulness, journaling, and daily self-care. Don’t hesitate to seek therapy. Surround yourself with positivity and set screen-time boundaries.</p>
+
+    <h3>👩 Women’s Health</h3>
+    <p>Track menstrual cycles, maintain hygiene, take calcium-rich foods, and get regular thyroid and breast screenings. Stress and fatigue are signals—don’t ignore them.</p>
+  </section>
+
+  <section>
+    <h2>Condition-Based Advice</h2>
+
+    <h3>🩸 Diabetes Management</h3>
+    <p>Control sugar intake, follow a fiber-rich diet, exercise, and check sugar levels as prescribed. Never skip meds, and keep feet clean and checked regularly.</p>
+
+    <h3>💓 Heart Health</h3>
+    <p>Exercise, avoid fatty/salty foods, and maintain healthy cholesterol. Include Omega-3s and green vegetables. Don’t ignore chest discomfort or shortness of breath.</p>
+
+    <h3>🧠 Mental Health</h3>
+    <p>Stay socially connected, exercise your mind, and seek help when needed. Good sleep, journaling, and mindfulness improve emotional strength.</p>
+  </section>
+
+  <section>
+    <h2>Recommended Products</h2>
+    <ul>
+      <li><strong>Blood Glucose Monitor:</strong> Track sugar levels with ease. <em>Consult your doctor before choosing.</em></li>
+      <li><strong>Omega-3 Capsules:</strong> Support for heart, joints, and brain.</li>
+      <li><strong>Herbal Cough Syrup:</strong> Non-drowsy relief for seasonal coughs.</li>
+    </ul>
+  </section>
+
+  <section class="disclaimer">
+    <h3>Disclaimer</h3>
+    <p>This page is for informational use only. Always consult a qualified medical professional for diagnosis or emergency help. Do not rely solely on online advice for health conditions.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YourPharmaWebsite.com |
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms & Conditions</a>
+    </p>
+  </footer>
+
+</body>
+</html>
