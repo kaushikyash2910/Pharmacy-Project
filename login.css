@@ -7,7 +7,8 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(to right, #dcedc8, #b2dfdb); /* Soft gradient */
+  background: linear-gradient(to right, #dcedc8, #b2dfdb);
+  /* Soft gradient */
   color: #333;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -16,7 +17,8 @@ body {
 }
 
 /* Shared Box Styling */
-.login, .signup {
+.login,
+.signup {
   background-color: #ffffff;
   padding: 40px 35px;
   border-radius: 12px;
@@ -25,7 +27,8 @@ body {
   text-align: center;
 }
 
-.login h1, .signup h1 {
+.login h1,
+.signup h1 {
   color: #2e7d32;
   margin-bottom: 24px;
   font-size: 2rem;
