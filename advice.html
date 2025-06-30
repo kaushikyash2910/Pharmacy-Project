@@ -154,13 +154,60 @@
   <section>
     <h2>Meet Our Expert</h2>
     <div class="doctor-profile">
-      <img src="doctor-placeholder.jpg" alt="Dr. Anjali Mehta">
+      <img src="assets/dj67fvi8_kk-aggarwal-twitter_295x200_18_May_21.jpg" alt="Dr. K.K. Aggarwal" />
       <div>
-        <h3>Dr. Anjali Mehta</h3>
-        <p><strong>Qualification:</strong> MBBS, MD (Internal Medicine)</p>
-        <p><strong>Experience:</strong> 15+ years treating lifestyle-related disorders</p>
-        <p><strong>Philosophy:</strong> “Preventive care and early awareness are the cornerstones of a healthy life.”
-        </p>
+        <h3>Dr. K.K. Aggarwal</h3>
+        <div id="content">
+          <span id="dots">
+            <p>
+              Qualifications: MBBS: Nagpur University (1979) MD (Medicine):
+              Mahatma Gandhi Institute of Medical Sciences, Wardha (1983) Gold
+              Medalist and Topper: Throughout his medical career at Nagpur
+              University and MGIMS.
+            </p>
+          </span>
+          <span id="more">
+            <h3>Qualifications:</h3>
+            <p>
+              MBBS: Nagpur University (1979) MD (Medicine): Mahatma Gandhi
+              Institute of Medical Sciences, Wardha (1983) Gold Medalist and
+              Topper: Throughout his medical career at Nagpur University and
+              MGIMS.
+            </p>
+
+            <h3>Experience:</h3>
+            <p>
+              Dr. K.K. Aggarwal had an extensive and diverse professional
+              journey: Senior Consultant, Physician, and Cardiologist:
+              Moolchand Medcity, New Delhi (until 2017). He was a pioneer in
+              using clot busters for acute myocardial infarction (1984) and
+              introduced color Doppler echocardiography in North India (1987).
+              National President, Indian Medical Association (IMA):
+              (2016-2017) President, Heart Care Foundation of India (HCFI): He
+              founded and led this organization dedicated to public health.
+              President, Confederation of Medical Associations in Asia and
+              Oceania (CMAAO): (2019-2020) Honorary Secretary-General, Medical
+              Council of India (MCI).
+            </p>
+
+            <h3>Philosophy:</h3>
+            <p>
+              Dr. K.K. Aggarwal's philosophy on health and medicine was deeply
+              rooted in a holistic and public-centric approach, often blending
+              modern medical science with traditional Indian wisdom. Key
+              aspects of his philosophy include: "One Health" Concept: He
+              strongly believed in the interconnectedness of human health with
+              animal health, plant health, and the environment. This reflects
+              the ancient Vedic saying, "VasudhaivaKutumbakam" (the whole
+              world is my family), and
+              "Yathapindetathabrahmande,yathabrahmandetathapinde" (as is the
+              microcosm, so is the macrocosm). He emphasized that the human
+              body is a replica of the universe and that wellness should
+              prioritize this interconnectedness.
+            </p>
+          </span>
+        </div>
+        <button onclick="myFunction()" id="myBtn">Read More</button>
       </div>
     </div>
   </section>
@@ -221,13 +268,51 @@
       emergency help. Do not rely solely on online advice for health conditions.</p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 YourPharmaWebsite.com |
-      <a href="#">Privacy Policy</a> |
-      <a href="#">Terms & Conditions</a>
-    </p>
-  </footer>
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <h2>HealthCare+</h2>
+        <p>Your wellness, our priority. We deliver trusted pharmacy and wellness products, powered by care and quality.
+        </p>
+      </div>
 
+      <div class="footer-highlight">
+        <h3>Why Choose Us?</h3>
+        <ul>
+          <li>✔️ 100% Genuine Medicines</li>
+          <li>✔️ Fast & Safe Delivery</li>
+          <li>✔️ 24/7 Support & Consultation</li>
+          <li>✔️ Trusted by 1 Lakh+ Users</li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h3>Stay Healthy. Stay Updated.</h3>
+        <p>Subscribe to get health tips and special offers straight to your inbox.</p>
+        <input type="email" placeholder="Enter your email" />
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 HealthCare+. All rights reserved. | Designed with ❤️ for healthy living.</p>
+    </div>
+  </footer>
+  <script> function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }</script>
 </body>
 
 </html>
